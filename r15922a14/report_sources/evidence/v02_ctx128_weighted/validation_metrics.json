@@ -1,0 +1,56 @@
+{
+  "macro_f1": 0.8350549539976889,
+  "micro_f1": 0.8430257979886314,
+  "harmonic_macro_micro": 0.8390214453326861,
+  "per_label_f1": {
+    "Ask_Price": 0.8949771689497716,
+    "Ask_Service": 0.8624708624708625,
+    "Ask_Spec": 0.8184281842818428,
+    "Compare_Competitor": 0.691358024691358,
+    "Confirm_Order": 0.9302325581395349,
+    "Doubt": 0.78125,
+    "Need_More_Evidence": 0.8787878787878788,
+    "Need_Time_To_Think": 0.8982035928143712,
+    "State_Need": 0.8392857142857143,
+    "Too_Expensive": 0.7555555555555555
+  },
+  "best_epoch": 9,
+  "checkpoint_metric": "fixed_harmonic",
+  "best_selection_value": 0.8321483648420517,
+  "validation_loss": 0.25035949274897573,
+  "fixed_threshold_metrics": {
+    "macro_f1": 0.827266305857546,
+    "micro_f1": 0.8370883882149047,
+    "harmonic_macro_micro": 0.8321483648420517,
+    "per_label_f1": {
+      "Ask_Price": 0.8909952606635071,
+      "Ask_Service": 0.8558558558558559,
+      "Ask_Spec": 0.8184281842818428,
+      "Compare_Competitor": 0.6744186046511628,
+      "Confirm_Order": 0.9248554913294798,
+      "Doubt": 0.7786666666666666,
+      "Need_More_Evidence": 0.8717948717948718,
+      "Need_Time_To_Think": 0.8764044943820225,
+      "State_Need": 0.8256880733944955,
+      "Too_Expensive": 0.7555555555555555
+    }
+  },
+  "tuned_threshold_metrics": {
+    "macro_f1": 0.8350549539976889,
+    "micro_f1": 0.8430257979886314,
+    "harmonic_macro_micro": 0.8390214453326861,
+    "per_label_f1": {
+      "Ask_Price": 0.8949771689497716,
+      "Ask_Service": 0.8624708624708625,
+      "Ask_Spec": 0.8184281842818428,
+      "Compare_Competitor": 0.691358024691358,
+      "Confirm_Order": 0.9302325581395349,
+      "Doubt": 0.78125,
+      "Need_More_Evidence": 0.8787878787878788,
+      "Need_Time_To_Think": 0.8982035928143712,
+      "State_Need": 0.8392857142857143,
+      "Too_Expensive": 0.7555555555555555
+    }
+  },
+  "calibration_note": "Thresholds were tuned once after reloading the selected checkpoint. Checkpoint selection and calibration still share the validation split."
+}

@@ -1,0 +1,56 @@
+{
+  "macro_f1": 0.8038236501716309,
+  "micro_f1": 0.8130008904719501,
+  "harmonic_macro_micro": 0.8083862249045506,
+  "per_label_f1": {
+    "Ask_Price": 0.87,
+    "Ask_Service": 0.8461538461538461,
+    "Ask_Spec": 0.7848837209302325,
+    "Compare_Competitor": 0.6301369863013698,
+    "Confirm_Order": 0.9058823529411765,
+    "Doubt": 0.7345844504021448,
+    "Need_More_Evidence": 0.8333333333333334,
+    "Need_Time_To_Think": 0.863905325443787,
+    "State_Need": 0.8727272727272727,
+    "Too_Expensive": 0.6966292134831461
+  },
+  "best_epoch": 12,
+  "checkpoint_metric": "fixed_harmonic",
+  "best_selection_value": 0.799078162414818,
+  "validation_loss": 0.30530300209919614,
+  "fixed_threshold_metrics": {
+    "macro_f1": 0.7940606909334276,
+    "micro_f1": 0.804159445407279,
+    "harmonic_macro_micro": 0.799078162414818,
+    "per_label_f1": {
+      "Ask_Price": 0.8378378378378378,
+      "Ask_Service": 0.8461538461538461,
+      "Ask_Spec": 0.7688172043010753,
+      "Compare_Competitor": 0.6265060240963856,
+      "Confirm_Order": 0.891566265060241,
+      "Doubt": 0.7345844504021448,
+      "Need_More_Evidence": 0.8333333333333334,
+      "Need_Time_To_Think": 0.8461538461538461,
+      "State_Need": 0.8727272727272727,
+      "Too_Expensive": 0.6829268292682927
+    }
+  },
+  "tuned_threshold_metrics": {
+    "macro_f1": 0.8038236501716309,
+    "micro_f1": 0.8130008904719501,
+    "harmonic_macro_micro": 0.8083862249045506,
+    "per_label_f1": {
+      "Ask_Price": 0.87,
+      "Ask_Service": 0.8461538461538461,
+      "Ask_Spec": 0.7848837209302325,
+      "Compare_Competitor": 0.6301369863013698,
+      "Confirm_Order": 0.9058823529411765,
+      "Doubt": 0.7345844504021448,
+      "Need_More_Evidence": 0.8333333333333334,
+      "Need_Time_To_Think": 0.863905325443787,
+      "State_Need": 0.8727272727272727,
+      "Too_Expensive": 0.6966292134831461
+    }
+  },
+  "calibration_note": "Thresholds were tuned once after reloading the selected checkpoint. Checkpoint selection and calibration still share the validation split."
+}

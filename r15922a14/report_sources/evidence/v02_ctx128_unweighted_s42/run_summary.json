@@ -1,0 +1,71 @@
+{
+  "baseline_version": "0.2.0",
+  "best_epoch": 12,
+  "checkpoint_metric": "fixed_harmonic",
+  "best_selection_value": 0.8141947171119768,
+  "best_harmonic_macro_micro": 0.8321357019183764,
+  "training_seconds": 229.75243810005486,
+  "epochs_completed": 12,
+  "optimizer_groups": [
+    {
+      "component": "encoder",
+      "weight_decay": 0.01,
+      "learning_rate": 2e-05,
+      "parameter_tensors": 75,
+      "parameters": 277331712
+    },
+    {
+      "component": "encoder",
+      "weight_decay": 0.0,
+      "learning_rate": 2e-05,
+      "parameter_tensors": 122,
+      "parameters": 121344
+    },
+    {
+      "component": "classifier",
+      "weight_decay": 0.01,
+      "learning_rate": 2e-05,
+      "parameter_tensors": 2,
+      "parameters": 597504
+    },
+    {
+      "component": "classifier",
+      "weight_decay": 0.0,
+      "learning_rate": 2e-05,
+      "parameter_tensors": 2,
+      "parameters": 778
+    }
+  ],
+  "arguments": {
+    "train_file": "..\\train.jsonl",
+    "output_dir": "outputs\\v02_ctx128_unweighted_s42",
+    "model_name": "FacebookAI/xlm-roberta-base",
+    "max_length": 512,
+    "validation_ratio": 0.2,
+    "seed": null,
+    "split_seed": 42,
+    "model_seed": 42,
+    "epochs": 12,
+    "train_batch_size": 8,
+    "eval_batch_size": 8,
+    "gradient_accumulation": 1,
+    "learning_rate": 2e-05,
+    "encoder_learning_rate": 2e-05,
+    "classifier_learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "max_grad_norm": 1.0,
+    "precision": "fp16",
+    "num_workers": 0,
+    "use_pos_weight": false,
+    "input_order": "utterance_first",
+    "context_max_tokens": 128,
+    "turn_aware_context": true,
+    "explicit_role_markers": true,
+    "checkpoint_metric": "fixed_harmonic",
+    "early_stopping_patience": 3,
+    "early_stopping_min_delta": 0.0001,
+    "max_train_samples": null,
+    "max_validation_samples": null
+  }
+}

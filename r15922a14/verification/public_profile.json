@@ -1,0 +1,26 @@
+{
+  "seconds_including_python_imports": 6.401921199867502,
+  "python": "3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit (AMD64)]",
+  "torch": "2.11.0+cu126",
+  "transformers": "4.50.0",
+  "cuda": "12.6",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "allocator_limit_gib": 9,
+  "peak_allocated_gib": 1.0818042755126953,
+  "peak_reserved_gib": 1.154296875,
+  "argv": [
+    "C:/Users/yuting/Desktop/HW1_ADL/submission_validation/clean room/r15922a14/inference.py",
+    "--context-file",
+    "C:/Users/yuting/Desktop/HW1_ADL/context.json",
+    "--test-file",
+    "C:/Users/yuting/Desktop/HW1_ADL/test.json",
+    "--model-dir",
+    "C:/Users/yuting/Desktop/HW1_ADL/submission_validation/clean room/r15922a14/model",
+    "--output-file",
+    "C:/Users/yuting/Desktop/HW1_ADL/submission_validation/public prediction/prediction.csv",
+    "--batch-size",
+    "4",
+    "--precision",
+    "fp16"
+  ]
+}

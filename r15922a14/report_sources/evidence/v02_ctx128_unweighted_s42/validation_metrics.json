@@ -1,0 +1,56 @@
+{
+  "macro_f1": 0.8261305005799985,
+  "micro_f1": 0.8382288469969311,
+  "harmonic_macro_micro": 0.8321357019183764,
+  "per_label_f1": {
+    "Ask_Price": 0.9014084507042254,
+    "Ask_Service": 0.8695652173913043,
+    "Ask_Spec": 0.8156424581005587,
+    "Compare_Competitor": 0.6172839506172839,
+    "Confirm_Order": 0.9418604651162791,
+    "Doubt": 0.7700258397932817,
+    "Need_More_Evidence": 0.8656716417910447,
+    "Need_Time_To_Think": 0.8780487804878049,
+    "State_Need": 0.8545454545454545,
+    "Too_Expensive": 0.7472527472527473
+  },
+  "best_epoch": 12,
+  "checkpoint_metric": "fixed_harmonic",
+  "best_selection_value": 0.8141947171119768,
+  "validation_loss": 0.1833082478493452,
+  "fixed_threshold_metrics": {
+    "macro_f1": 0.8009684090762883,
+    "micro_f1": 0.8278651685393258,
+    "harmonic_macro_micro": 0.8141947171119768,
+    "per_label_f1": {
+      "Ask_Price": 0.8792270531400966,
+      "Ask_Service": 0.8695652173913043,
+      "Ask_Spec": 0.8156424581005587,
+      "Compare_Competitor": 0.6075949367088608,
+      "Confirm_Order": 0.9418604651162791,
+      "Doubt": 0.7603305785123967,
+      "Need_More_Evidence": 0.8549618320610687,
+      "Need_Time_To_Think": 0.8757396449704142,
+      "State_Need": 0.8333333333333334,
+      "Too_Expensive": 0.5714285714285714
+    }
+  },
+  "tuned_threshold_metrics": {
+    "macro_f1": 0.8261305005799985,
+    "micro_f1": 0.8382288469969311,
+    "harmonic_macro_micro": 0.8321357019183764,
+    "per_label_f1": {
+      "Ask_Price": 0.9014084507042254,
+      "Ask_Service": 0.8695652173913043,
+      "Ask_Spec": 0.8156424581005587,
+      "Compare_Competitor": 0.6172839506172839,
+      "Confirm_Order": 0.9418604651162791,
+      "Doubt": 0.7700258397932817,
+      "Need_More_Evidence": 0.8656716417910447,
+      "Need_Time_To_Think": 0.8780487804878049,
+      "State_Need": 0.8545454545454545,
+      "Too_Expensive": 0.7472527472527473
+    }
+  },
+  "calibration_note": "Thresholds were tuned once after reloading the selected checkpoint. Checkpoint selection and calibration still share the validation split."
+}

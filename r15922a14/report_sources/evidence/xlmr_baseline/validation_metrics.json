@@ -1,0 +1,17 @@
+{
+  "macro_f1": 0.4255591728902758,
+  "micro_f1": 0.4503105590062112,
+  "harmonic_macro_micro": 0.437585138647282,
+  "per_label_f1": {
+    "Ask_Price": 0.3230769230769231,
+    "Ask_Service": 0.5605263157894737,
+    "Ask_Spec": 0.5846153846153846,
+    "Compare_Competitor": 0.1111111111111111,
+    "Confirm_Order": 0.33013435700575816,
+    "Doubt": 0.5261261261261261,
+    "Need_More_Evidence": 0.4107744107744108,
+    "Need_Time_To_Think": 0.4807692307692308,
+    "State_Need": 0.8108108108108109,
+    "Too_Expensive": 0.11764705882352941
+  }
+}

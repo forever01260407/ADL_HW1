@@ -1,0 +1,55 @@
+# Root allowlist: the prepared source tree and documentation.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/docs/
+!/r15922a14/
+
+# Generated directories, at any depth.
+**/.venv*/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.ipynb_checkpoints/
+**/hf_cache/
+**/.cache/
+**/outputs/
+**/model/
+**/best_model/
+**/node_modules/
+
+# Course data, per-example records, and predictions.
+**/train.jsonl
+**/context.json
+**/test.json
+**/public_test_gold.csv
+**/sample_prediction.csv
+**/prediction.csv
+**/split_ids.json
+**/error_examples.json
+
+# Weights, downloads, and compiled Python.
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.tar
+*.tar.gz
+*.zip
+*.part
+*.py[cod]
+
+# Credentials and editor/OS files.
+.env
+.env.*
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-04 Asia/Taipei",
+  "os": "Ubuntu 22.04.4 LTS (WSL2)",
+  "environment": {
+    "OS": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "Python": "3.10.12 (TA target: 3.10)",
+    "torch": "2.11.0+cu126 (TA target: 2.11.0)",
+    "transformers": "4.50.0 (TA target: 4.50.0)",
+    "tokenizers": "0.21.4",
+    "huggingface-hub": "0.36.2",
+    "sentencepiece": "NOT INSTALLED",
+    "safetensors": "0.8.0",
+    "CUDA available": "True",
+    "PyTorch CUDA build": "12.6",
+    "GPU": "NVIDIA GeForce RTX 4090",
+    "VRAM": "23.99 GiB"
+  },
+  "source": "actual submitted ZIP extracted into a fresh Linux directory",
+  "anonymous_download_seconds": 13.742,
+  "run_sh_seconds_including_checksum_extraction": 13.607,
+  "examples": 500,
+  "csv_format_and_order": "passed",
+  "data_joining_tests_passed": 5,
+  "model_bytes": 803048033,
+  "model_sha256": "06354df9b2e11b5f0c09326f4699ce106395440128304d26b74890310343e5d0",
+  "prediction_sha256": "09d9002cf186f31c8c12bdcb399fd460a96aa859943305b6ab4ffb5074ba5b7f",
+  "matches_windows_prediction": true,
+  "ta_ubuntu20_rtx3080_tested": false
+}
